@@ -10,7 +10,8 @@
     "@types/restify": "^7.2.5"
   },
   "scripts": {
-    "dev": "pm2 start ecosystem.config.js --watch"
+    "dev": "tsc -w",
+    "prod": "pm2 start ecosystem.config.js"
   },
   "repository": {
     "type": "git",
