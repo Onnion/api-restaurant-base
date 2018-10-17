@@ -1,0 +1,25 @@
+{
+  "name": "api-restaurant-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "restify": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/restify": "^7.2.5"
+  },
+  "scripts": {
+    "dev": "pm2 start ecosystem.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onnion/api-restaurant-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onnion/api-restaurant-base/issues"
+  },
+  "homepage": "https://github.com/Onnion/api-restaurant-base#readme"
+}
