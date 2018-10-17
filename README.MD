@@ -1,22 +1,32 @@
-install pre-requisites
+# install pre-requisites
+
+### Typescript
 ```
-npm i typescript -g
+sudo apt-get node-typescript && npm i typescript -g
 ```
+
+### MongoDB
+https://www.digitalocean.com/community/tutorials/como-instalar-o-mongodb-no-ubuntu-16-04-pt
+
+
+### PM2
 ```
 npm i pm2 -g
 ```
 
-install dependencies
+# Install dependencies
 ```
 npm i
 ```
 
-start app
+## Start app
+
+### start app
 ```
 sudo npm run dev
 ```
 
-stop app
+### stop app
 ```
 pm2 stop ...
 ```
