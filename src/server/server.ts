@@ -1,10 +1,10 @@
 import * as restify from 'restify';
 import {Router} from './../common/router';
+import {usersRouter} from './../entities/users/users.router';
 
 export class Server {
 
     private _application: restify.Server;
-  
     
     constructor() { }
 
@@ -24,6 +24,9 @@ export class Server {
                 });
 
                 this.application.use(restify.plugins.queryParser());
+
+
+                usersRouter.applyRoutes(this._application);
 
                 this._application.listen(3000, () => {
                     resolve(this._application);

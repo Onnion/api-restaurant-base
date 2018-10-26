@@ -1,6 +1,6 @@
-import {Server} from './server/server';
-import {Router} from './common/router';
-import {usersRouter} from './entities/users/users.router';
+import {Server} from './src/server/server';
+import {Router} from './src/common/router';
+import {usersRouter} from './src/entities/users/users.router';
 
 const server = new Server();
 

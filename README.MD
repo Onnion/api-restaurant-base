@@ -6,7 +6,9 @@ sudo apt-get node-typescript && npm i typescript -g
 ```
 
 ### MongoDB
-https://www.digitalocean.com/community/tutorials/como-instalar-o-mongodb-no-ubuntu-16-04-pt
+```
+sudo apt install -y mongodb
+```
 
 
 ### PM2
@@ -23,7 +25,7 @@ npm i
 
 ### start app
 ```
-sudo npm run dev
+npm run dev
 ```
 
 ### stop app
